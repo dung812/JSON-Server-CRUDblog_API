@@ -1,0 +1,25 @@
+{
+  "blogs": [
+    {
+      "image": "https://evondev.com/wp-content/uploads/2021/10/conditional-radius-1200x580.jpg",
+      "title": "Tìm hiểu Conditional Border Radius trong CSS",
+      "content": "Gần đây mình có F12 và kiểm tra code CSS của Facebook và thấy rằng họ sử dụng thuộc tính border-radius cực kỳ đỉnh cao cho giao diện main feed của họ. Lần đầu mình nhìn vào thì thấy sao họ lại viết rắc rối thế nhỉ, viết vậy để làm gì ? Sau khi tìm hiểu thì mình đã hiểu ra cách nó hoạt động và mình sẽ giải thích cho các bạn ngay sau đây\n\nVấn đề\nChúng ta có giao diện là card với border-radius là 8px. Khi cái card này không có margin hoặc là nó đang rộng bằng viewport(khi ở mobile) thì chúng ta muốn border-radius lúc này là 0.",
+      "hashtags": [
+        "CSS"
+      ],
+      "publicDate": "18/01/2022",
+      "id": 1
+    },
+    {
+      "image": "https://evondev.com/wp-content/uploads/2021/09/just-coding-1200x580.jpg",
+      "title": "Là lập trình viên thì có nên chỉ viết code thôi không ?",
+      "content": "Câu trả lời của mình là không. Mà các bạn nên tìm tòi học hỏi thêm nhiều thứ khác để có thể nâng cao kiến thức và cải thiện thêm nhiều kỹ năng khác nữa. Từ đó có thể tạo ra thêm thu nhập hoặc ít nhất là có kiến thức rộng hơn. Vậy đó là những cái gì thì mình sẽ giới thiệu cho các bạn ở dưới đây nha.\nViết blog Khi chúng ta viết blog thì chúng ta sẽ phải tìm cách viết sao cho hay, tìm tòi nội dung, nghiên cứu từ khoá, làm sao để bài viết của mình lên TOP 10 của Google, và biết thêm nhiều về hosting, domain, để làm sao đưa website chúng ta lên trên mạng để nhiều người biết tới được. Qua việc viết blog chúng ta sẽ có thêm những kỹ năng như là viết bài, SEO, lên nội dung, nghiên cứu từ khoá, chưa kể còn phải thiết kế ảnh bìa nữa, ngoài ra khi blog được nhiều người đọc, nhiều người biết tới thì cái thương hiệu cá nhân sẽ uy tín hơn, sau này dễ dàng kết nối tới nhiều người, làm được nhiều việc có lợi khác..",
+      "hashtags": [
+        "CODING",
+        "FRONT-END"
+      ],
+      "publicDate": "18/01/2022",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+/*==================== MEDIA QUERIES ====================*/
+/* PC: width >= 1024px */
+@media (min-width: 64em) {
+
+}
+
+/* Tablet and mobile: width < 1024px */
+@media (max-width: 64.625em) {
+
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media (min-width: 46.25em) and (max-width: 64.625em) {
+
+}
+/* Mobile: width < 740px */
+@media (max-width: 46.1875em) {
+    .modal {
+        padding: 10px;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    .card-icon--item i {
+        font-size: 24px;
+    }
+
+    .blog-detail--img {
+        width: 80%;
+    }
+}

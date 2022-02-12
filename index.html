@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body> 
+    <div class="center"><button type="button" class="btn-add">Add new blog</button></div>
+    <div class="modal">
+        <div class="modal-content">
+            <div class="modal-close"><i class="uil uil-times-circle"></i></div>
+
+            <form action="" class="form-blog" id="form-1" autocomplete="off">
+                <div class="form-group">
+                    <label for="image">Image url</label>
+                    <input type="text" id="image" class="form-control" name="image" placeholder="https://images.unsplash.com/photo...">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" class="form-control" name="title" placeholder="Your title">
+                    <span class="form-message"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="content">Content</label>
+                    <textarea id="content" cols="30" rows="7" class="form-control" name="content" placeholder="Your content"></textarea>
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group list-hashtag">
+                    <label for="hashtag">Hashtag</label>
+                    <input type="text" id="hashtag" class="form-control" name="hashtag" placeholder="HTML, CSS,...">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn-submit">Add blog</button>
+                </div>
+
+            </form>
+            <div class="blog-detail">
+                <img src="https://source.unsplash.com/random" alt="" class="blog-detail--img">
+                <h2 class="blog-detail--title"></h2>
+                <p class="blog-detail--content"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter-blog">
+        <input type="text" name="" id="filter-input" placeholder="Filter name blog"/>
+    </div>
+
+    <div class="wide grid">
+        <div class="image-loader"></div>  
+        <div class="row card-list">
+            <!-- <div class="col l-4 m-6 c-12">
+                <div class="card-item" style="background: url(https://source.unsplash.com/random)top center / cover no-repeat;">
+                    <div class="card-function">
+                        <div class="card-date">Jan 17 2022</div>
+                        <div class="card-icon">
+                            <div class="card-icon--item card-icon--edit" data-id ="1"><i class="uil uil-edit"></i></div>
+                            <div class="card-icon--item card-icon--remove" data-id ="1"><i class="uil uil-times-circle"></i></div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <a class="card-content--title" href="#">HTML syntax</a>
+                        <p class="card-content--desc"></p>
+                        <p class="card-content--desc__hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repudiandae, labore deserunt voluptatibus optio dolorum recusandae enim aliquam alias sint, accusantium magnam, nostrum facere laboriosam odit fuga assumenda! Accusantium, quia?</p>
+                        <div class="hashtag">
+                            <div class="hashtag-item">HTML</div>
+                            <div class="hashtag-item">CSS</div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="./assets/js/validator.js"></script>
+    <script>
+        Validator({
+            form: '#form-1',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules:[
+                Validator.isRequired('#image'),
+                Validator.isRequired('#title'),
+                Validator.isRequired('#content'),
+                Validator.isRequired('#hashtag'),
+            ]
+        });
+    </script>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
