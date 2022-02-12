@@ -3,7 +3,7 @@ const formBlog = document.querySelector(".form-blog");
 const btnSubmit = document.querySelector(".btn-submit");
 const filterInput = document.querySelector("#filter-input");
 const cardList = document.querySelector(".card-list");
-const endpoint = "https://jsonserver-blogs.herokuapp.com/blogs";
+const endpoint = "https://jsonserver-crub-blog.herokuapp.com/blogs";
 let updateId = null;
 
 //============================ Event click button appear modal ============================
